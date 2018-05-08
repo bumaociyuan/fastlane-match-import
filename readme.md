@@ -4,10 +4,10 @@ match 官方文档推荐我们首先把所有的已有证书删除，已经上�
 
 ```
 
-# 手动加密，把证书导出cer和p12，把mp文件
-# cer文件用 cert_id_query.rb 查询id 并命名
-# mp文件用 bundle_id 命名
-# 放在origins文件夹里面，如下
+# 手动加密，把证书导出 cer 和 p12，把 mobileprovision 文件
+# cer 文件用 cert_id_query.rb 查询 id 并命名
+# mobileprovision 文件用 bundle_id 命名
+# 放在 origins 文件夹里面，如下
 
 origins
 ├── certs
@@ -20,7 +20,7 @@ origins
 └── profiles
     ├── development
     │   └── com.foo.bar.mobileprovision
-    └── enterprise
+    └── distribution
         └── com.foo.bar.mobileprovision
 
 
