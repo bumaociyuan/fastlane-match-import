@@ -1,7 +1,7 @@
 require 'spaceship'
 
 puts "Input your apple id:"
-apple_id = gets
+apple_id = gets.chomp
 Spaceship.login(apple_id) #输入对应的苹果账号
 Spaceship.select_team
 
